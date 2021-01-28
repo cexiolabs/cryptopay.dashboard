@@ -1,0 +1,4 @@
+Requests flow:
+1. XHR http://id.cryptopay.band:38089/.well-known/openid-configuration
+1. Redirect to Auth Server http://id.cryptopay.band:38089/connect/authorize?response_type=code&scope=openid+openid+profile+CryptoPay.Dashboard.Read+CryptoPay.Dashboard.Write&client_id=angular_spa&redirect_uri=http%3A%2F%2F127.0.0.1%3A8080%2F%23%2Fchildren&state=9KFkMK4NhbCUgQpP0wNst9e5nVmFbCIeOdSNVGGgFkpfBDZeKE&code_challenge_method=S256&code_challenge=OeY8ejw4ONcZty_lQBLpWbhFyAUfyEe8uRWS5o7wPq4
+1. Redirect back to the app http://127.0.0.1:38089/#/children?code=7B69313E40979013687FC8442829B0849E287CD351B2F35E83207290270403B3&scope=openid%20profile%20CryptoPay.Dashboard.Read%20CryptoPay.Dashboard.Write&state=9KFkMK4NhbCUgQpP0wNst9e5nVmFbCIeOdSNVGGgFkpfBDZeKE&session_state=b1qZ6KgawcJw5G6IDewn9UlnccZgVWhvlO68oBfC7ww.6EF65CE28705809AB26C552A3F07DBFF
