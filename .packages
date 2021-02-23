@@ -24,7 +24,7 @@ build_test:packages/build_test/
 build_web_compilers:packages/build_web_compilers/
 built_collection:packages/built_collection/
 built_value:packages/built_value/
-cexiolabs_cryptopay_dashboard_app:packages/cexiolabs_cryptopay_dashboard_app/
+cexiolabs_cryptopay_dashboard:packages/cexiolabs_cryptopay_dashboard/
 charcode:packages/charcode/
 checked_yaml:packages/checked_yaml/
 cli_repl:packages/cli_repl/
