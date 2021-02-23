@@ -30383,7 +30383,7 @@ D.AB.prototype={}
 D.Lc.prototype={
 gaW:function(){return"https://api.cryptopay.band"},
 gvk:function(){return"https://id.cryptopay.band"},
-gun:function(){return"/profile/oauth-challenge"}}
+gun:function(){return"/profile/oauth-challenge/"}}
 D.Ph.prototype={
 gaW:function(){return this.a},
 gvk:function(){return this.b},
@@ -30758,7 +30758,7 @@ if(o!==m){T.aB(q,"mat-drawer-collapsed",m)
 j.b=m}l=p.a
 p=j.c
 if(p!==l){T.aB(q,"mat-drawer-expanded",l)
-j.c=l}k.b.M("2.2.0")
+j.c=l}k.b.M("2.2.1")
 k.Q.S(h)
 j=i.y.e.ghZ().d.b
 k.c.M(j)
