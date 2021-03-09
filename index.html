@@ -10,7 +10,9 @@
 	<!-- <link rel="icon" type="image/png" href="favicon.png"> -->
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css"
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+		integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 
 	<!-- Start Single Page Apps for GitHub Pages -->
@@ -25,9 +27,9 @@
 		// When the single page app is loaded further down in this file,
 		// the correct url will be waiting in the browser's history for
 		// the single page app to route accordingly.
-		(function(l) {
-			if (l.search[1] === '/' ) {
-				var decoded = l.search.slice(1).split('&').map(function(s) { 
+		(function (l) {
+			if (l.search[1] === '/') {
+				var decoded = l.search.slice(1).split('&').map(function (s) {
 					return s.replace(/~and~/g, '&')
 				}).join('?');
 				window.history.replaceState(null, null,
@@ -38,7 +40,11 @@
 	</script>
 	<!-- End Single Page Apps for GitHub Pages -->
 
-	<script defer src="production.dart.js"></script>
+	<script>
+		window.getCryptoPayApiUrl = function () { return ["https://api.cryptopay.band", "https://id.cryptopay.band"]; }
+	</script>
+
+	<script defer src="cryptopaydashboard.dart.js"></script>
 </head>
 
 <body>
