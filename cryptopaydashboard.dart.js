@@ -28480,7 +28480,7 @@ return!0}return!1},
 $iNn:1}
 Y.zD.prototype={}
 Y.JF.prototype={
-gbp:function(){return"https://api.cryptopay.band"},
+gbp:function(){return"https://api.cryptopay.band/v3"},
 guU:function(){return"https://id.cryptopay.band"},
 gtV:function(){return"/profile/oauth-challenge/"}}
 Y.Nk.prototype={
@@ -28790,7 +28790,7 @@ k.b=n}m=q.a
 q=k.c
 if(q!==m){T.aQ(r,"mat-drawer-expanded",m)
 k.c=m}j.toString
-l.b.M("2.3.0")
+l.b.M("2.3.1")
 l.y.S(i)
 k=j.x.e.gtE().b
 l.c.M(k)
